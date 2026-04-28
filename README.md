@@ -6,12 +6,23 @@
   <br />
 
   <div>
-<img src="https://img.shields.io/badge/-Next.js-black?style=for-the-badge&logo=Next.js&logoColor=white" />
-<img src="https://img.shields.io/badge/-Typescript-3178C6?style=for-the-badge&logo=Typescript&logoColor=white" />
+
+<img src="https://img.shields.io/badge/-Next.js-black?style=for-the-badge&logo=nextdotjs&logoColor=white" />
+<img src="https://img.shields.io/badge/-Typescript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
+<img src="https://img.shields.io/badge/-Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" />
+<img src="https://img.shields.io/badge/-shadcn/ui-000000?style=for-the-badge&logo=shadcnui&logoColor=white" /><br/>
+
+<img src="https://img.shields.io/badge/-Prisma-2D3748?style=for-the-badge&logo=prisma&logoColor=white" />
+<img src="https://img.shields.io/badge/-PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white" />
+<img src="https://img.shields.io/badge/-Clerk-6C47FF?style=for-the-badge&logo=clerk&logoColor=white" /><br/>
+
+<img src="https://img.shields.io/badge/Trigger.dev-22c55e?style=for-the-badge&logo=triggerdotdev&logoColor=white" />
+<img src="https://img.shields.io/badge/-Liveblocks-050505?style=for-the-badge&logo=liveblocks&logoColor=white" />
+<img src="https://img.shields.io/badge/-CodeRabbit-orange?style=for-the-badge&logo=coderabbit&logoColor=white" />
 
   </div>
 
-  <h3 align="center">Project Title Here</h3>
+  <h3 align="center">AI-Powered Collaborative System Architect</h3>
 
    <div align="center">
      Build this project step by step with our detailed tutorial on <a href="https://www.youtube.com/watch?v=XUkNR-JfHwo" target="_blank"><b>JavaScript Mastery</b></a> YouTube. Join the JSM family!
@@ -37,7 +48,7 @@ If you prefer visual learning, this is the perfect resource for you. Follow our 
 
 ## <a name="introduction">✨ Introduction</a>
 
-AI-powered Nike-style eCommerce built with Devin AI, Next.js, Drizzle ORM, and Better Auth! Devin generates your product pages, cart, and checkout flows—powered by Stripe payments and a PostgreSQL (Neon) backend. Featuring a clean, modular UI and tools tailored for devs who want to ship fast.
+Ghost Arc is an agentic planning application built for software teams. A user submits a natural-language prompt (e.g., "Design a scalable e-commerce backend") and a Google Gemini-powered AI agent autonomously places nodes and edges onto a shared React Flow canvas in real-time. Human teammates can watch the AI build the diagram live, then jump in to collaboratively refine it. Once the team is satisfied, a second AI background task converts the visual graph into a comprehensive, multi-page Markdown technical specification that can be downloaded directly from the app.
 
 If you're getting started and need assistance or face any bugs, join our active Discord community with over **50k+** members. It's a place where people help each other out.
 
@@ -45,37 +56,49 @@ If you're getting started and need assistance or face any bugs, join our active 
 
 ## <a name="tech-stack">⚙️ Tech Stack</a>
 
-- **[Better Auth](https://www.better-auth.com/)** is a framework-agnostic authentication and authorization library for TypeScript. It provides built-in support for email and password authentication, social sign-on (Google, GitHub, Apple, and more), and multi-factor authentication, simplifying user authentication and account management.
+- **[Next.js](http s://nextjs.org/)** is a production-ready React framework that offers server-side rendering, static site generation, and powerful routing features. It streamlines the development of full-stack web applications by providing a comprehensive ecosystem for performance optimization, data fetching, and API development.
 
-- **[Devin AI](https://docs.devin.ai/get-started/devin-intro)** is an autonomous AI software engineer by Cognition Labs that independently plans, writes, debugs, and deploys full applications from natural language prompts. It integrates with tools like Slack, Linear, and Jira to manage tasks and pull requests, and learns new technologies on the fly by reading documentation.
+- **[React](https://react.dev/)** is a popular JavaScript library for building declarative and component-based user interfaces. It excels at creating reusable UI components and efficient state management, making it the standard choice for building dynamic and interactive single-page applications.
 
-- **[Drizzle ORM](https://orm.drizzle.team/docs/overview)** is a lightweight and performant TypeScript ORM designed with developer experience in mind. It provides a seamless interface between application code and database operations while maintaining high performance and reliability.
+- **[TypeScript](https://www.typescriptlang.org/)** is a strongly typed superset of JavaScript that adds static type definitions to your code. It significantly improves developer productivity and code reliability by catching errors during development, enhancing IDE support, and facilitating maintainability in large-scale projects.
 
-- **[Neon](https://neon.com/)** is a fully managed, serverless PostgreSQL database platform. It offers features like instant provisioning, autoscaling, and database branching, enabling developers to build scalable applications without managing infrastructure.
+- **[Liveblocks](https://jsm.dev/ghost-liveblocks)** is a real-time collaboration infrastructure that enables developers to build multiplayer experiences. It provides robust APIs for presence, shared state, and text synchronization, allowing you to easily add collaborative features like cursors, whiteboard tools, and shared document editing to your apps.
 
-- **[Next.js](https://nextjs.org/docs)** is a powerful React framework for building full-stack web applications. It simplifies development with features like server-side rendering, static site generation, and API routes, enabling developers to focus on building products and shipping quickly.
+- **[Clerk](https://jsm.dev/ghost-clerk)** is a specialized authentication and user management platform for React and Next.js. It offers drop-in pre-built components for sign-in, sign-up, and profile management, while handling complex requirements like session management, multi-factor authentication, and organization hierarchies out of the box.
 
-- **[PostgreSQL](https://www.postgresql.org/)** is a powerful, open-source relational database system known for its reliability, data integrity, and robust feature set. It supports advanced data types, full ACID compliance, and extensibility, making it suitable for a wide range of applications.
+- **[Trigger.dev](https://jsm.dev/ghost-triggerdev)** is an open-source platform for orchestrating long-running background jobs and workflows. It allows developers to define jobs directly in their code that respond to webhooks, schedules, or events, handling retries, delays, and state management without the need for complex infrastructure.
 
-- **[Stripe](https://stripe.com/)** is a payment gateway that enables businesses to accept, process, and manage various payment methods, such as credit cards, debit cards, and digital wallets, in a secure and efficient manner. It simplifies the payment process for developers and businesses alike.
+- **[Prisma ORM](https://www.prisma.io/)** is a next-generation ORM for Node.js and TypeScript that simplifies database interactions. By providing a type-safe client generated from your schema, it makes querying your database intuitive, readable, and highly efficient, effectively eliminating common SQL-related runtime errors.
 
-- **[TypeScript](https://www.typescriptlang.org/)** is a superset of JavaScript that adds static typing, providing better tooling, code quality, and error detection for developers. It is ideal for building large-scale applications and enhances the development experience.
+- **[PostgreSQL](https://www.postgresql.org/)** is an advanced, open-source object-relational database system widely recognized for its reliability, extensibility, and standard compliance. It provides the persistent storage layer for your application, supporting complex queries, transactional integrity, and large-scale data handling.
 
-- **[Zustand](https://zustand-demo.pmnd.rs)** is a minimal, hook-based state management library for React. It lets you manage global state with zero boilerplate, no context providers, and excellent performance through selective state subscriptions.
+- **[Tailwind CSS](https://tailwindcss.com/)** is a utility-first CSS framework that enables rapid custom UI development. By utilizing low-level utility classes directly in your markup, it removes the need to switch between CSS and HTML files, allowing for highly consistent and responsive design systems.
+
+- **[shadcn/ui](https://ui.shadcn.com/)** is a collection of beautifully designed, accessible, and re-usable UI components that you can copy and paste directly into your projects. Built on top of Radix UI and Tailwind CSS, it grants you full control over your component code, avoiding the bloat of traditional component libraries.
+
+- **[CodeRabbit](https://jsm.dev/ghost-coderabbit)** is an AI-powered code review assistant that automates pull request analysis. It provides line-by-line feedback, suggests code improvements, summarizes changes, and helps maintain high code quality by integrating seamlessly into your git-based development workflow.
 
 ## <a name="features">🔋 Features</a>
 
-👉 **Landing Page**: A fast, engaging homepage that introduces your brand and products with smooth animations and clear calls to action.
+👉 **AI Architecture Agent**: Submit a plain-English prompt; Gemini draws nodes and edges onto the live canvas in real-time via Trigger.dev background tasks and the Liveblocks Node.js SDK.
 
-👉 **Product Listing Page**: Browse all products with filters, sorting, and real-time availability—powered by Devin AI-generated content for dynamic updates.
+👉 **Multiplayer Canvas**: Full real-time collaboration powered by Liveblocks: synchronized node/edge state, live cursor positions, and presence avatars for every connected user.
 
-👉 **Auth Pages**: Secure and seamless user signup, login, and password recovery using Better Auth, ensuring smooth access without backend hassles.
+👉 **Custom Canvas Nodes**: Double-click to edit node labels inline; select to resize with NodeResizer; choose from 12 colour swatches via a floating NodeToolbar — all synced across clients instantly.
 
-👉 **Product Details Page**: Detailed product info, images, and reviews with AI-enhanced descriptions to help customers make confident buying decisions.
+👉 **AI Spec Generation**: One click converts the current graph into a detailed Markdown technical specification using a second Gemini-powered Trigger.dev task.
 
-👉 **Cart Page**: Intuitive cart management allowing users to add, remove, and update quantities, with instant price recalculations and persistent state via Zustand.
+👉 **Multi-Spec Storage**: Each project stores multiple specs. Metadata lives in PostgreSQL (Prisma); content is stored as Markdown files on disk (`data/specs/{projectId}/{specId}.md`).
 
-👉 **Order Page**: Track order history and status with reliable data stored in PostgreSQL (Neon), plus secure payments handled by Stripe integration.
+👉 **Downloadable Specs**: Every generated spec is available via a dedicated download API route.
+
+👉 **Clerk Authentication**: Global route protection via `clerkMiddleware`; Liveblocks tokens are only issued to authenticated users.
+
+👉 **Auto-Save Canvas**: The canvas state is debounced-saved to `data/canvas/{projectId}.json` every 3 seconds of inactivity.
+
+👉 **Project Management**: Create projects from a slide-in sidebar; project slugs auto-generate room IDs; the active room is highlighted.
+
+👉 **Share**: One-click URL copy with a 1.5 s "Copied" confirmation.
 
 And many more, including code architecture and reusability.
 
@@ -94,8 +117,8 @@ Make sure you have the following installed on your machine:
 **Cloning the Repository**
 
 ```bash
-git clone
-cd
+git clone https://github.com/adrianhajdin/ghost-ai.git
+cd ghost-ai
 ```
 
 **Installation**
@@ -111,10 +134,32 @@ npm install
 Create a new file named `.env` in the root of your project and add the following content:
 
 ```env
+# Clerk
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
+CLERK_SECRET_KEY=
+NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
+NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
 
+LIVEBLOCKS_SECRET_KEY=
+
+TRIGGER_SECRET_KEY=
+NEXT_PUBLIC_TRIGGER_PUBLIC_API_KEY=
+
+DATABASE_URL=
+
+━━━━━━━━━━━━━━━━━━━━
+# Google
+GOOGLE_GENERATIVE_AI_API_KEY=
+# Optional: override the default Gemini model (default: gemini-2.0-flash)
+GEMINI_MODEL=
+# Optional: override model used specifically for spec generation
+GEMINI_SPEC_MODEL=
+
+━━━━━━━━━━━━━━━━━━━━
+APP_URL=http://localhost:3000
 ```
 
-Replace the placeholder values with your real credentials. You can get these by signing up at: [**Example**](https://jsm.dev/example).
+Replace the placeholder values with your real credentials. You can get these by signing up at: [**Clerk**](https://jsm.dev/ghost-clerk), [**Liveblocks**](https://jsm.dev/ghost-liveblocks), [**Trigger.dev**](https://jsm.dev/ghost-triggerdev), [**Google AI Studio**](https://aistudio.google.com/).
 
 **Running the Project**
 
@@ -124,22 +169,72 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000) in your browser to view the project.
 
+**Run Trigger.dev (Background Tasks)**
+
+In a second terminal, start the Trigger.dev dev worker so background AI tasks execute locally:
+
+```bash
+npx trigger.dev@latest dev
+```
+
+## Available Scripts
+
+| Command                   | Description                           |
+| ------------------------- | ------------------------------------- |
+| `npm run dev`             | Start Next.js development server      |
+| `npm run build`           | Build for production                  |
+| `npm run start`           | Start production server               |
+| `npm run lint`            | Run ESLint                            |
+| `npm run prisma:generate` | Regenerate Prisma client              |
+| `npm run prisma:migrate`  | Create and apply a new migration      |
+| `npm run prisma:deploy`   | Apply pending migrations (production) |
+| `npm run prisma:studio`   | Open Prisma Studio GUI                |
+
+---
+
+## Project Structure
+
+```
+.
+├── app/
+│   ├── api/              # Next.js API routes (auth, AI, projects, specs)
+│   ├── editor/           # Canvas editor pages
+│   ├── generated/prisma/ # Auto-generated Prisma client
+│   ├── sign-in/          # Clerk sign-in page
+│   └── sign-up/          # Clerk sign-up page
+├── components/
+│   ├── editor/           # Canvas UI components (editor, sidebar, AI chat)
+│   └── ui/               # Reusable shadcn/ui primitives
+├── data/
+│   ├── canvas/           # Auto-saved React Flow graph JSON per project
+│   └── specs/            # Generated Markdown specs per project
+├── docs/                 # Project documentation
+├── hooks/                # Custom React hooks (auto-save, keyboard shortcuts)
+├── lib/                  # Shared utilities (Prisma client, Liveblocks, AI agents)
+├── prisma/               # Prisma schema and migrations
+├── trigger/              # Trigger.dev background task definitions
+│   ├── design-agent.ts   # AI canvas generation task
+│   └── generate-spec-gemini.ts  # AI spec generation task
+└── types/                # Shared TypeScript types
+```
+
+
+
 ## <a name="links">🔗 Assets</a>
 
-Assets and snippets used in the project can be found in the **[video kit]()**.
+Assets and snippets used in the project can be found in the **[video kit](https://jsmastery.com/video-kit/f94dd75a-4d9c-4c7c-af39-6e4668389421)**.
 
-<a href="" target="_blank">
+<a href="https://jsmastery.com/video-kit/f94dd75a-4d9c-4c7c-af39-6e4668389421" target="_blank">
   <img src="public/readme/readme-videokit.webp" alt="Video Kit Banner">
 </a>
 
 ## <a name="more">🚀 More</a>
 
-**Advance your skills with Next.js Pro Course**
+**Advance your skills with our Pro Courses**
 
 Enjoyed creating this project? Dive deeper into our PRO courses for a richer learning adventure. They're packed with
 detailed explanations, cool features, and exercises to boost your skills. Give it a go!
 
-<a href="" target="_blank">
+<a href="https://jsm.dev/ghost-jsm" target="_blank">
   <img src="public/readme/readme-jsmpro.webp" alt="Project Banner">
 </a>
-# ai-collab-workspace_next
